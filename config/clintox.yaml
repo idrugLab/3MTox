@@ -1,0 +1,10 @@
+DATA:
+  DATA_PATH: './dataset/processed/clintox.pkl'
+  DATASET_NAME: 'clintox'
+  MAX_LEN: 89
+  TASK_TYPE: 'classification'
+  METRIC: 'auc'
+MODEL:
+  NUM_TASK: 2
+TRAIN:
+  NUM_EPOCH: 200
