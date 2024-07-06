@@ -9,13 +9,12 @@ Fig. 2. The framework of 3MTox
 ## Requirements
 This project is developed using python 3.7.10, and mainly requires the following libraries.
 ```txt
-rdkit==2021.03.1
-scikit_learn==1.1.1
-torch==1.7.1+cu101
-torch_geometric==1.7.1
-torch_scatter==2.0.7
+rdkit==2023.03.2
+scikit_learn==1.0.2
+networkx==2.6.3
+torch==1.13.0+cu116
 ```
-To install [requirements](https://github.com/idrugLab/hignn/blob/main/requirements.txt):
+To install [requirements](https://github.com/idrugLab/3MTox/blob/main/requirements.txt):
 ```txt
 pip install -r requirements.txt
 ```
