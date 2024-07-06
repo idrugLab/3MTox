@@ -18,3 +18,12 @@ To install [requirements](https://github.com/idrugLab/3MTox/blob/main/requiremen
 ```txt
 pip install -r requirements.txt
 ```
+
+## Usage
+### Pre-training
+
+### Fine-tuning
+
+## Results
+![image](https://github.com/idrugLab/3MTox/blob/main/pngs/result.png)
+Fig. 3. Performance of 3MTox compared with the baseline models on four benchmark toxicity datasets
