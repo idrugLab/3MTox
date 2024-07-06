@@ -19,10 +19,9 @@ To install [requirements](https://github.com/idrugLab/3MTox/blob/main/requiremen
 pip install -r requirements.txt
 ```
 
-## Usage
-### Pre-training
+## Pre-training
 
-### Fine-tuning
+## Fine-tuning
 
 ## Results
 As shown in Fig. 3a, it delivered the best performance on three of the four datasets.The overall predictive accuracy of the 3MTox model was higher by 8.5% to 13.6% compared with all baseline models when using the random data splitting method. The 3MTox model achieved the best performance on ToxCast (AUC = 0.675) and ClinTox (AUC = 0.900), while the pretrained FG-BERT model yielded the best results on Tox21 (AUC = 0.784) and SIDER (AUC = 0.640).In addition, it achieved the best overall performance, with the highest average AUC value of 0.748 (Fig. 3d).
