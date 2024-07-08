@@ -37,14 +37,18 @@ path: https://github.com/idrugLab/3MTox/blob/main/train_pre.py
 ```
 ## Fine-tuning
 ### 1. preprocessing fine-tuning dataset
-
+To save time in running the model, the raw dataset - `./data/raw/clintox.csv` can be preprocessed and saved in a specific location - `./data/processed/clintox.pkl`.
+This can be achieved with the following code:
+```txt
+path: https://github.com/idrugLab/3MTox/blob/main/dataset/data_process/Gen_motif_label.py
+```
 ### 2. fine-tuning model for one seed
 ```txt
-path: 
+path: https://github.com/idrugLab/3MTox/blob/main/train.py
 ```
 ### 3. fine-tuning model for ten seeds and optimization
 ```txt
-path: 
+path: https://github.com/idrugLab/3MTox/blob/main/cross_valid.py
 ```
 ## Results
 As shown in Fig. 3a, it delivered the best performance on three of the four datasets.The overall predictive accuracy of the 3MTox model was higher by 8.5% to 13.6% compared with all baseline models when using the random data splitting method. The 3MTox model achieved the best performance on ToxCast (AUC = 0.675) and ClinTox (AUC = 0.900), while the pretrained FG-BERT model yielded the best results on Tox21 (AUC = 0.784) and SIDER (AUC = 0.640).In addition, it achieved the best overall performance, with the highest average AUC value of 0.748 (Fig. 3d).
