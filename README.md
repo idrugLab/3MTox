@@ -29,7 +29,11 @@ path: https://github.com/idrugLab/3MTox/blob/main/data/raw/dataset_select_chembl
 We design a multi-view task in the framework as a pretraining strategy for the model, including a task of contrastive learning and one of masked motif prediction, where the goal of the prediction task is to predict the category of the motifs, so we have to manually assign a label to each motif in the motif vocabulary in advance.
 This can be achieved with the following code:
 ```txt
-path: https://github.com/idrugLab/3MTox/blob/main/data/raw/dataset_select_chembl.pkl
+path: https://github.com/idrugLab/3MTox/blob/main/dataset/data_process/Gen_motif_label.py
+```
+### 3. pre-training 
+```txt
+path: 
 ```
 
 
