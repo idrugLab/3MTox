@@ -20,6 +20,12 @@ pip install -r requirements.txt
 ```
 
 ## Pre-training
+### 1. preparing dataset for pre-training
+We directly used a pretrained molecular corpus (~1.45 million) from our previous study-FG-BERT
+```txt
+pip install -r requirements.txt
+```
+
 
 ## Fine-tuning
 
