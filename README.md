@@ -40,7 +40,7 @@ path: https://github.com/idrugLab/3MTox/blob/main/train_pre.py
 To save time in running the model, the raw dataset - `./data/raw/clintox.csv` can be preprocessed and saved in a specific location - `./data/processed/clintox.pkl`.
 This can be achieved with the following code:
 ```txt
-path: https://github.com/idrugLab/3MTox/blob/main/dataset/data_process/Gen_motif_label.py
+path: https://github.com/idrugLab/3MTox/blob/main/dataset/data_process/data_process_clr.py
 ```
 ### 2. fine-tuning model for one seed
 ```txt
